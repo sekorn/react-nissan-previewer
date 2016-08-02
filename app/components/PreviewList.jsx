@@ -48,8 +48,8 @@ export var PreviewList = React.createClass({
       </div>
     );
   },
-  componentDidUpdate: function() {
-    if ($("#emptyList").length == 0) {
+  componentDidUpdate: function() {    
+    if ($("#emptyList").length == 0 && Foundation._uuids.length == 0) {
       $(document).foundation();
     }
   }

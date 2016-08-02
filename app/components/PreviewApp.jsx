@@ -12,7 +12,7 @@ var PreviewApp = React.createClass({
     return (
       <div>
         <OfferData/>
-        <PreviewData/>
+        <PreviewData/>        
 
         <h1 className="page-title">Nissan Preview App</h1>
         <div className="row">

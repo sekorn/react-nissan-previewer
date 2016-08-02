@@ -2,6 +2,8 @@ var React = require('react');
 var {connect} = require('react-redux');
 var actions = require('actions');
 
+import FilterItem from 'FilterItem';
+
 const OFFERS = [
   { "apr" : ["apr", "cashback"] },
   { "lease": ["lease", "leasecash", "leasesignndrive"] },
@@ -27,9 +29,41 @@ const VEHICLES = [
   { "VS" : "Versa Sedan" }
 ];
 
+const LANG = [
+  { "en" : "English" },
+  { "es" : "Spanish" }
+];
+
 var FilterView = React.createClass({
   render: function() {
-    return <div></div>
+    return (
+      <div className="filters">
+        <div className="filters-title">Offers</div>
+        <div>
+          {
+            OFFERS.map((item) => {
+              return <FilterItem />
+            })
+          }
+        </div>
+        <div className="filters-title">Vehicles</div>
+        <div>
+          {
+            VEHICLES.map((item) => {
+              return <FilterItem />
+            })
+          }
+        </div>
+        <div className="filters-title">Languages</div>
+        <div>
+          {
+            LANG.map((item) => {
+              return <FilterItem />
+            })
+          }
+        </div>
+      </div>
+    );
   }
 });
 
