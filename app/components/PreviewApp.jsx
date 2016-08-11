@@ -1,7 +1,6 @@
 var React = require('react');
 var $ = require('jquery');
 
-import OfferData from 'OfferData';
 import PreviewList from 'PreviewList';
 import PreviewData from 'PreviewData';
 import PreviewView from 'PreviewView';
@@ -11,16 +10,15 @@ var PreviewApp = React.createClass({
   render: function() {
     return (
       <div>
-        <OfferData/>
-        <PreviewData/>        
+        <PreviewData/>
 
-        <h1 className="page-title">Nissan Preview App</h1>
+        <h1 className="page-title">Nissan Previewer</h1>
         <div className="row">
           <div className="medium-3 columns">
             <PreviewList/>
           </div>
           <div className="medium-9 columns">
-            <ul className="tabs" data-tabs id="view">
+            <ul id="tabs" className="tabs" data-tabs id="view">
               <li className="tabs-title is-active"><a href="#links" aria-selected="true" onClick={() => {
 
                 }}>Links</a></li>
@@ -30,10 +28,10 @@ var PreviewApp = React.createClass({
             </ul>
 
             <div className="tabs-content" data-tabs-content="view">
-              <div className="tabs-panel" id="filters">
+              <div className="tabs-panel filter" id="filters">
                 <FilterView/>
               </div>
-              <div className="tabs-panel is-active" id="links">
+              <div className="tabs-panel is-active link" id="links">
                 <PreviewView />
               </div>
             </div>

@@ -1,4 +1,12 @@
 import * as GizmoAPI from 'GizmoAPI';
+import * as NissanAPI from 'NissanAPI';
+
+export var loadFilterPrefs = (filters) => {
+  return {
+    type: 'LOAD_FILTER_PREFS',
+    filters
+  };
+};
 
 export var loadPreview = (currentPreview) => {
   return {
@@ -56,16 +64,23 @@ export var getVersions = (versionSet) => {
   }
 }
 
-export var updateVehicleFilter = (vehicleFilter) => {
+export var toggleVehicleFilter = (vehicleFilter) => {
   return {
-    type: 'UPDATE_VEHICLE_FILTER',
+    type: 'TOGGLE_VEHICLE_FILTER',
     vehicleFilter
   }
 }
 
-export var updateOfferFilter = (offerFilter) => {
+export var toggleOfferFilter = (offerFilter) => {
   return {
-    type: 'UPDATE_OFFER_FILTER',
+    type: 'TOGGLE_OFFER_FILTER',
     offerFilter
+  }
+}
+
+export var toggleLanguageFilter = (languageFilter) => {
+  return {
+    type: 'TOGGLE_LANGUAGE_FILTER',
+    languageFilter
   }
 }

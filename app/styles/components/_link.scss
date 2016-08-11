@@ -1,0 +1,17 @@
+.link {
+  height: 50rem;
+  overflow-y: auto;
+}
+
+.link-item {
+  display: inline-block;
+  width: 5rem;
+  border: 1px solid $grey;
+  text-align: center;
+  margin: 1px;
+  background-color: $white;
+
+  a {
+    font-size: .8rem;
+  }
+}

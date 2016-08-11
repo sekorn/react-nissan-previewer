@@ -41,16 +41,16 @@ export var PreviewList = React.createClass({
     };
 
     return (
-      <div className="list">
-        <ul className="vertical menu" data-accordion-menu>
+      <div className="menu-list">
+        <ul id="previewlist" className="vertical menu" data-accordion-menu>
           {renderList()}
         </ul>
       </div>
     );
   },
-  componentDidUpdate: function() {    
+  componentDidUpdate: function() {
     if ($("#emptyList").length == 0 && Foundation._uuids.length == 0) {
-      $(document).foundation();
+      $(document).foundation();      
     }
   }
 });

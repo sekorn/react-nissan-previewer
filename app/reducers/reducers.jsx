@@ -43,23 +43,24 @@ export var offerDataReducer = (state = [], action) => {
       return state;
   }
 };
-export var vehicleFilterReducer = (state = [], action) => {
+export var filterReducer = (state = [], action) => {
   switch (action.type) {
-    case 'UPDATE_VEHICLE_FILTER':
+    case 'LOAD_FILTER_PREFS':
       return [
         ...state,
-        ...action.vehicleFilter
+        action.filters
       ];
-    default:
-      return state;
-  }
-};
-export var offerFilterReducer = (state = [], action) => {
-  switch(action.type) {
-    case 'UPDATE_OFFER_FILTER':
+    case 'TOGGLE_VEHICLE_FILTER':
       return [
-        ...state,
-        ...action.offerFilter
+
+      ];
+    case 'TOGGLE_OFFER_FILTER':
+      return [
+
+      ];
+    case 'TOGGLE_LANGUAGE_FILTER':
+      return [
+
       ];
     default:
       return state;

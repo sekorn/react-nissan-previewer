@@ -1,6 +1,6 @@
 var axios = require('axios');
 
-const PREVIEW_DATA_URL = "http://gizmo.serving-sys.com/api/data/get/644";
+const PREVIEW_DATA_URL = "http://gizmo.serving-sys.com/api/data/get/674";
 const OFFER_DATA_URL = "http://gizmo.serving-sys.com/api/data/get/481";
 
 module.exports = {

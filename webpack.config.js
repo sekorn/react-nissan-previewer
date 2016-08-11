@@ -30,7 +30,7 @@ module.exports = {
   },
   resolve: {
     root: __dirname,
-    modulesDirectories: ['app/components/', 'node_modules', 'app/api/'],
+    modulesDirectories: ['app/components/', 'app/components/data', 'node_modules', 'app/api/'],
     alias: {
       applicationStyles: 'app/styles/app.scss',
       GizmoAPI: 'app/api/GizmoAPI.jsx',

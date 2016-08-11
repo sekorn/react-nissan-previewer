@@ -3,19 +3,21 @@ var {connect} = require('react-redux');
 var actions = require('actions');
 var $ = require('jquery');
 
+import NissanAPI from 'NissanAPI';
+import YearView from 'YearView';
+
 var PreviewView = React.createClass({
   render: function() {
-    var {currentPreview} = this.props;
+    var {currentPreview, filters} = this.props;
+
+    var yearArray = NissanAPI.getFilterSet(filters, "year");
 
     var renderPreview = () => {
-      if (currentPreview.length > 0) {
+      return yearArray.map((item) => {
         return (
-          <div>
-          <label>{currentPreview[0].name}</label>
-          <label>{currentPreview[0].url}</label>
-          </div>
+           <YearView year={Object.keys(item)} />
         );
-      }
+      })
     };
 
     return (
@@ -27,4 +29,5 @@ var PreviewView = React.createClass({
 export default connect(
   (state) => {
     return state;
-  })(PreviewView);
+  }
+)(PreviewView);
