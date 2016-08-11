@@ -12,7 +12,7 @@ var PreviewApp = React.createClass({
       <div>
         <PreviewData/>
 
-        <h1 className="page-title">Nissan Previewer</h1>
+        <h1 className="page-title">Nissan Previewer (beta)</h1>
         <div className="row">
           <div className="medium-3 columns">
             <PreviewList/>
