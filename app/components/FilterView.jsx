@@ -27,7 +27,7 @@ var FilterView = React.createClass({
 
     return (
       <div className="row">
-        
+        {html()}
       </div>
     );
   }

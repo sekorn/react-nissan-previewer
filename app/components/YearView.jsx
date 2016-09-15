@@ -9,6 +9,7 @@ var YearView = React.createClass({
   render: function () {
     var {year, filters, currentPreview} = this.props;
 
+    var title = "";
     var vehiclesArray = [];
     var offersArray = [];
     var sizeArray = [];
@@ -16,6 +17,7 @@ var YearView = React.createClass({
 
     var renderYearView = () => {
       if (currentPreview.length > 0) {
+        title = currentPreview[0].name;
 
         vehiclesArray = NissanAPI.getCurrentPreviewItem(currentPreview, "vehicles");
         offersArray = NissanAPI.getCurrentPreviewItem(currentPreview, "offers");
@@ -25,10 +27,11 @@ var YearView = React.createClass({
         var yearItem = "year"+year;
         return (
           <div id={yearItem} className="year-item accordion" data-accordion>
-            <div className="year-header">{year}</div>
+            <div className="year-header">{title}  {year}</div>
             {getVehicleItems()}
           </div>
         );
+
       } else {
 
       }
@@ -43,8 +46,11 @@ var YearView = React.createClass({
     };
 
     return (
-      <div className="year-view">
-        {renderYearView()}
+      <div>
+        <div className="title">{title}</div>
+        <div className="year-view">
+          {renderYearView()}
+        </div>
       </div>
     );
   },

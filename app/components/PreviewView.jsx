@@ -5,23 +5,33 @@ var $ = require('jquery');
 
 import NissanAPI from 'NissanAPI';
 import YearView from 'YearView';
+import StaticView from 'StaticView';
 
 var PreviewView = React.createClass({
   render: function() {
     var {currentPreview, filters} = this.props;
 
     var yearArray = NissanAPI.getFilterSet(filters, "year");
+    var linksArray = NissanAPI.getCurrentPreviewItem(currentPreview, "links");
 
     var renderPreview = () => {
-      return yearArray.map((item) => {
+      if (linksArray.length == 0) {
+        return yearArray.map((item) => {
+          return (
+             <YearView year={Object.keys(item)} />
+          );
+        })
+      } else {
         return (
-           <YearView year={Object.keys(item)} />
+            <StaticView />
         );
-      })
+      }
     };
 
     return (
-        <div>{renderPreview()}</div>
+        <div>
+          {renderPreview()}
+        </div>
     );
   }
 });

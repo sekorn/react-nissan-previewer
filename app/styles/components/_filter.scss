@@ -4,5 +4,11 @@
 }
 
 .filter-item {
-  display: flex;
+  display: inline-flex;
+  padding-left: 1rem;
+
+  input {
+    padding-left: .25rem;
+    padding-right: .25rem;
+  }
 }

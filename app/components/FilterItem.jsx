@@ -21,7 +21,7 @@ var FilterItem = React.createClass({
           dispatch(actions.updateFilter());
         }}>
         <div>
-          <input type="checkbox" id={Object.keys(item)} />
+          <input type="checkbox" id={Object.keys(item)} checked="true" />
         </div>
         <div>
           <p>{item[Object.keys(item)]}</p>
