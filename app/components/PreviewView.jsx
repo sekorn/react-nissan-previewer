@@ -13,14 +13,21 @@ var PreviewView = React.createClass({
 
     var yearArray = NissanAPI.getFilterSet(filters, "year");
     var linksArray = NissanAPI.getCurrentPreviewItem(currentPreview, "links");
+    var parametersArray = NissanAPI.getCurrentPreviewItem(currentPreview, "parameters");
 
     var renderPreview = () => {
       if (linksArray.length == 0) {
-        return yearArray.map((item) => {
+        if (parametersArray.length <= 1) {
+          return yearArray.map((item) => {
+            return (
+               <YearView year={Object.keys(item)} />
+            );
+          })
+        } else {
           return (
-             <YearView year={Object.keys(item)} />
+            <StaticView />
           );
-        })
+        }
       } else {
         return (
             <StaticView />

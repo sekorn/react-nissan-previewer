@@ -7,18 +7,20 @@ var LinkItem = React.createClass({
   render: function() {
     var {dispatch, getState, offerData, title, url, year, size, modelcode, offer, param, name, offertemplate, currentPreview} = this.props;
 
-    var foundOffer = offerData.find((item) => {
-      if (item.modelCode == modelcode &&
-          item.offerType == Object.keys(offer)[0] &&
-          item.offerTypeTemplate == offertemplate &&
-          item.year == year[0]){
-        return item;
-      }
-    });
-
     var renderLinkView = () => {
+      debugger;
       if (offer != undefined) {
-        if (foundOffer != undefined) {          
+
+        var foundOffer = offerData.find((item) => {
+          if (item.modelCode == modelcode &&
+              item.offerType == Object.keys(offer)[0] &&
+              item.offerTypeTemplate == offertemplate &&
+              item.year == year[0]){
+            return item;
+          }
+        });
+
+        if (foundOffer != undefined) {
           return (
             <a href={getURL(foundOffer, currentPreview[0].url)} target="_blank">{title}</a>
           );
@@ -56,8 +58,9 @@ var LinkItem = React.createClass({
           .replace("{size}", size.value);
 
       } else {
+        debugger;
         var type = "{" + name + "}";
-        return url.replace("{modelcode}", this.props.modelcode)
+        return url.replace("{modelcode}", modelcode)
           .replace(type, param);
       }
     };
