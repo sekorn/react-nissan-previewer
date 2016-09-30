@@ -7,14 +7,16 @@ var StaticLinkItem = React.createClass({
   render: function() {
     var {dispatch, getState, link, currentPreview} = this.props;
 
+    debugger;
+    
     var renderLinkView = () => {
       if (link != undefined) {
         return (
           <a href={link.href} target="_blank">{link.value}</a>
         );
       } else {
-        return (<
-          div>-</div>
+        return (
+          <div>-</div>
         );
       }
     }

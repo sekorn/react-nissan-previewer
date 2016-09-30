@@ -6,6 +6,7 @@ var $ = require('jquery');
 import NissanAPI from 'NissanAPI';
 import YearView from 'YearView';
 import StaticView from 'StaticView';
+import NCAAView from 'NCAAView';
 
 var PreviewView = React.createClass({
   render: function() {
@@ -24,8 +25,11 @@ var PreviewView = React.createClass({
             );
           })
         } else {
+          var teams = (parametersArray[0]).team;
+          var sizes = (parametersArray[1]).size;
+
           return (
-            <StaticView />
+            <NCAAView teams={teams} sizes={sizes}/>
           );
         }
       } else {
