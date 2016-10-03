@@ -10,7 +10,7 @@ var NCAATeamView = React.createClass({
 
     var renderStaticLinks = () => {
       return sizes.map((size) => {
-        var name = currentPreview[0].name;
+        var name = currentPreview[0].name.replace(" ","_");
         var href = currentPreview[0].url;
 
         var link = {};
