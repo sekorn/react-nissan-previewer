@@ -13,8 +13,8 @@ var StaticLinkItem = React.createClass({
           <a href={link.href} target="_blank">{link.value}</a>
         );
       } else {
-        return (<
-          div>-</div>
+        return (
+          <div>-</div>
         );
       }
     }

@@ -20,7 +20,7 @@ module.exports = {
   },
   getDefaultFilterJSON: function(filters) {
     var json = [
-      { "year" : [ {"2016" : "true"}, {"2015" : "true"}]},
+      { "year" : [ {"2017" : "true"}, {"2016" : "true"}, {"2015" : "true"}]},
       { "offer" :
         [
           {"apr" : "true"},

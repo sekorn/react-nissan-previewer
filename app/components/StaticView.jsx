@@ -10,7 +10,9 @@ var StaticView = React.createClass({
     var {filters, currentPreview} = this.props;
 
     var linksArray = [];
+    var parametersArray = [];
     var title = "";
+    var url = "";
 
     var renderYearView = () => {
       if (currentPreview.length > 0) {
