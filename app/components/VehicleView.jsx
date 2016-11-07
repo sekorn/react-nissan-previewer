@@ -20,8 +20,6 @@ var VehicleView = React.createClass({
     };
 
     var getOfferItems = () => {
-      debugger;
-      
       if (offers.length > 0) {
         return offers.map((offer) => {
           return (
@@ -32,8 +30,7 @@ var VehicleView = React.createClass({
       else if (parameters.length > 0) {
         var arrayName = Object.keys(parameters[0]);
         var array = parameters[0][arrayName];
-
-        debugger;
+                
         return array.map((param) => {
           return (
             <ParameterView modelcode={vehicle.code} param={param} year={year} sizes={sizes} paramName={arrayName} />

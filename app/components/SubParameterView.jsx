@@ -18,13 +18,13 @@ var SubParameterView = React.createClass({
     };
 
     var getSizeLinkItems = () => {
-      return sizes.map((size) => {
+      return sizes.map((size) => {        
         return (
           <LinkItem title={size.value}
                     modelcode={modelcode}
                     param={param}
                     year={year}
-                    size={size.value}
+                    size={size}
                     name={name} />
         );
       });

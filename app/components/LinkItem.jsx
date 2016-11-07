@@ -41,6 +41,8 @@ var LinkItem = React.createClass({
     var getURL = (foundOffer, url) => {
       var region, dma, offer, offerType, year;
 
+      debugger;
+
       if (foundOffer) {
         region = foundOffer.region.split(',')[0];
         dma = foundOffer.dma.split(',')[0];
@@ -60,6 +62,11 @@ var LinkItem = React.createClass({
       } else {
         debugger;
         var type = "{" + name + "}";
+
+        if (size != undefined) {
+          url = url.replace("{size}", size.value);
+        }
+
         return url.replace("{modelcode}", modelcode)
           .replace(type, param);
       }
