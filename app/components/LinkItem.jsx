@@ -65,6 +65,10 @@ var LinkItem = React.createClass({
 
         if (size != undefined) {
           url = url.replace("{size}", size.value);
+
+          if (size.type != undefined) {
+            url = url.replace("{type}", size.type.toUpperCase());
+          }
         }
 
         return url.replace("{modelcode}", modelcode)
