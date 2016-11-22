@@ -15,6 +15,9 @@ module.exports = {
     'script!foundation-sites/dist/plugins/foundation.util.timerAndImageLoader.js',
     './app/app.jsx'
   ],
+  node: {
+    fs: "empty"
+  },
   externals: {
     jquery: 'jQuery'
   },

@@ -1,0 +1,2689 @@
+{
+  "NissanPreviewer": [
+    {
+      "name": "Product InBanner",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/inBanner/template_{type}{size}.html?animation_available=no&creative_version=Product&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "exp",
+          "value": "160x600"
+        },
+        {
+          "type": "exp",
+          "value": "300x250"
+        },
+        {
+          "type": "pol",
+          "value": "300x250"
+        },
+        {
+          "type": "exp",
+          "value": "728x90"
+        },
+        {
+          "type": "pol",
+          "value": "300x600"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product Animated",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/inBanner/template_{type}{size}.html?animation_available=yes&creative_version=Product&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offertype}",
+      "sizes": [
+        {
+          "type": "exp",
+          "value": "160x600"
+        },
+        {
+          "type": "exp",
+          "value": "300x250"
+        },
+        {
+          "type": "pol",
+          "value": "300x250"
+        },
+        {
+          "type": "exp",
+          "value": "728x90"
+        },
+        {
+          "type": "pol",
+          "value": "300x600"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product SBB",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/SBB/template_{size}.html?creative_version=Product&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "980x30"
+        },
+        {
+          "type": "",
+          "value": "940x25"
+        },
+        {
+          "type": "",
+          "value": "818x30"
+        },
+        {
+          "type": "",
+          "value": "88x31"
+        },
+        {
+          "type": "pol",
+          "value": "970x250"
+        },
+        {
+          "type": "exp",
+          "value": "970x66",
+          "exclusion": [
+            "AS"
+          ]
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product Mobile/Tablet",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/Mobile_Tablet/template_{size}.html?creative_version=Product&creative_language=EN&vehicle_code={modelcode}&offer_type={offer}&dma={region}_{dma}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        },
+        {
+          "type": "",
+          "value": "320x50"
+        },
+        {
+          "type": "",
+          "value": "480x60"
+        },
+        {
+          "type": "",
+          "value": "160x600"
+        },
+        {
+          "type": "",
+          "value": "300x250"
+        },
+        {
+          "type": "",
+          "value": "728x90"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "GT-R®",
+          "code": "GT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Rogue® Select",
+          "code": "RGS"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        },
+        {
+          "name": "370Z® Coupe",
+          "code": "ZC"
+        },
+        {
+          "name": "370Z® Roadster",
+          "code": "ZR"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product Hispanic Mobile/Tablet",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/Mobile_Tablet/template_{size}.html?creative_version=Product&creative_language=ES&vehicle_code={modelcode}&offer_type={offer}&dma={region}_{dma}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        },
+        {
+          "type": "",
+          "value": "320x50"
+        },
+        {
+          "type": "",
+          "value": "480x60"
+        },
+        {
+          "type": "",
+          "value": "160x600"
+        },
+        {
+          "type": "",
+          "value": "300x250"
+        },
+        {
+          "type": "",
+          "value": "728x90"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "GT-R®",
+          "code": "GT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Rogue® Select",
+          "code": "RGS"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        },
+        {
+          "name": "370Z® Coupe",
+          "code": "ZC"
+        },
+        {
+          "name": "370Z® Roadster",
+          "code": "ZR"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product Mobile/Tablet (Double Tap)",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/DoubleTap/template_{size}.html?creative_version=Product&creative_language=EN&vehicle_code={modelcode}&offer_type={offer}&dma={region}_{dma}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        },
+        {
+          "type": "",
+          "value": "320x50"
+        },
+        {
+          "type": "",
+          "value": "480x60"
+        },
+        {
+          "type": "",
+          "value": "160x600"
+        },
+        {
+          "type": "",
+          "value": "300x250"
+        },
+        {
+          "type": "",
+          "value": "728x90"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "GT-R®",
+          "code": "GT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Rogue® Select",
+          "code": "RGS"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        },
+        {
+          "name": "370Z® Coupe",
+          "code": "ZC"
+        },
+        {
+          "name": "370Z® Roadster",
+          "code": "ZR"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product Mobile/Tablet (Adhesive)",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/Adhesive/template_320x50.html?creative_version=Product&creative_language={language}&vehicle_code={modelcode}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [],
+      "parameters": [
+        {
+          "language": [
+            "ES",
+            "EN"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product ESPN Site Banner",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/ESPN-siteBanner/template{size}.html?creative_version=Product&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "pol",
+          "value": "970x66"
+        },
+        {
+          "type": "pol",
+          "value": "1280x100"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product VPAID",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/VPAID/template_VPAID.html?creative_version=Product&language=EN&vehicle_code={modelcode}&offer_type={offer}&region={region}&dma={dma}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "VPAID"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product Hispanic VPAID",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/VPAID/template_VPAID.html?creative_version=Product&language=ES&vehicle_code={modelcode}&offer_type={offer}&region={region}&dma={dma}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "VPAID"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Product InBanner Mega",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/MegaUnit/template_EXP300x250.html?creative_type={creativeType}&vehicle_code={modelcode}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x250"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        }
+      ],
+      "offers": [],
+      "parameters": [
+        {
+          "creativeType": [
+            "USP",
+            "GALLERY",
+            "OFFERS",
+            "COLOR"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "SBB Mega",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/MegaUnit/template_{size}_{type}.html?creative_type={creativeType}",
+      "sizes": [
+        {
+          "type": "exp",
+          "value": "980x30"
+        },
+        {
+          "type": "exp",
+          "value": "940x25"
+        },
+        {
+          "type": "exp",
+          "value": "818x30"
+        },
+        {
+          "type": "exp",
+          "value": "88x31"
+        },
+        {
+          "type": "pol",
+          "value": "970x250"
+        },
+        {
+          "type": "exp",
+          "value": "970x66"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        }
+      ],
+      "offers": [],
+      "parameters": [
+        {
+          "creativeType": [
+            "USP",
+            "GALLERY",
+            "OFFERS",
+            "COLOR"
+          ]
+        }
+      ],
+      "version": "Product"
+    },
+    {
+      "name": "Sales Event InBanner",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/inBanner/template_{type}{size}.html?creative_version=Sales Event&animation_available=no&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "exp",
+          "value": "160x600"
+        },
+        {
+          "type": "exp",
+          "value": "300x250"
+        },
+        {
+          "type": "pol",
+          "value": "300x250"
+        },
+        {
+          "type": "exp",
+          "value": "728x90"
+        },
+        {
+          "type": "pol",
+          "value": "300x600"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event Animated Banner",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/inBanner/template_{type}{size}.html?animation_available=yes&creative_version=Sales Event&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "exp",
+          "value": "160x600"
+        },
+        {
+          "type": "exp",
+          "value": "300x250"
+        },
+        {
+          "type": "pol",
+          "value": "300x250"
+        },
+        {
+          "type": "exp",
+          "value": "728x90"
+        },
+        {
+          "type": "pol",
+          "value": "300x600"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event SBB",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/SBB/template_{size}.html?creative_version=Sales Event&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "980x30"
+        },
+        {
+          "type": "",
+          "value": "940x25"
+        },
+        {
+          "type": "",
+          "value": "818x30"
+        },
+        {
+          "type": "",
+          "value": "88x31"
+        },
+        {
+          "type": "pol",
+          "value": "970x250"
+        },
+        {
+          "type": "exp",
+          "value": "970x66",
+          "exclusion": [
+            "AS"
+          ]
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event Mobile/Tablet",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/Mobile_Tablet/template_{size}.html?creative_version=Sales Event&creative_language=EN&vehicle_code={modelcode}&offer_type={offer}&dma={region}_{dma}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        },
+        {
+          "type": "",
+          "value": "320x50"
+        },
+        {
+          "type": "",
+          "value": "480x60"
+        },
+        {
+          "type": "",
+          "value": "160x600"
+        },
+        {
+          "type": "",
+          "value": "300x250"
+        },
+        {
+          "type": "",
+          "value": "728x90"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "GT-R®",
+          "code": "GT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Rogue® Select",
+          "code": "RGS"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        },
+        {
+          "name": "370Z® Coupe",
+          "code": "ZC"
+        },
+        {
+          "name": "370Z® Roadster",
+          "code": "ZR"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event Hispanic Mobile/Tablet",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/Mobile_Tablet/template_{size}.html?creative_version=Sales Event&creative_language=ES&vehicle_code={modelcode}&offer_type={offer}&dma={region}_{dma}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        },
+        {
+          "type": "",
+          "value": "320x50"
+        },
+        {
+          "type": "",
+          "value": "480x60"
+        },
+        {
+          "type": "",
+          "value": "160x600"
+        },
+        {
+          "type": "",
+          "value": "300x250"
+        },
+        {
+          "type": "",
+          "value": "728x90"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "GT-R®",
+          "code": "GT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Rogue® Select",
+          "code": "RGS"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        },
+        {
+          "name": "370Z® Coupe",
+          "code": "ZC"
+        },
+        {
+          "name": "370Z® Roadster",
+          "code": "ZR"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event Mobile/Tablet (Double Tap)",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/DoubleTap/template_{size}.html?creative_version=Sales Event&creative_language=EN&vehicle_code={modelcode}&offer_type={offer}&dma={region}_{dma}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        },
+        {
+          "type": "",
+          "value": "320x50"
+        },
+        {
+          "type": "",
+          "value": "480x60"
+        },
+        {
+          "type": "",
+          "value": "160x600"
+        },
+        {
+          "type": "",
+          "value": "300x250"
+        },
+        {
+          "type": "",
+          "value": "728x90"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "GT-R®",
+          "code": "GT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Rogue® Select",
+          "code": "RGS"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        },
+        {
+          "name": "370Z® Coupe",
+          "code": "ZC"
+        },
+        {
+          "name": "370Z® Roadster",
+          "code": "ZR"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event Mobile/Tablet (Adhesive)",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/Adhesive/template_320x50.html?creative_version=Sales Event&creative_language={language}&vehicle_code={modelcode}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "300x50"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [],
+      "parameters": [
+        {
+          "language": [
+            "ES",
+            "EN"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event ESPN Site Banner",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/ESPN-siteBanner/template{size}.html?creative_version=Sales Event&dma={region}_{dma}&vehicle_code={modelcode}&offer_type={offer}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "pol",
+          "value": "970x66"
+        },
+        {
+          "type": "pol",
+          "value": "1280x100"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Quest",
+          "code": "QU"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event VPAID",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/VPAID/template_VPAID.html?creative_version=SalesEvent&language=EN&vehicle_code={modelcode}&offer_type={offer}&region={region}&dma={dma}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "VPAID"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Sales Event Hispanic VPAID",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/VPAID/template_VPAID.html?creative_version=SalesEvent&language=ES&vehicle_code={modelcode}&offer_type={offer}&region={region}&dma={dma}&offer_template={offerType}",
+      "sizes": [
+        {
+          "type": "",
+          "value": "VPAID"
+        }
+      ],
+      "vehicles": [
+        {
+          "name": "Altima",
+          "code": "AS"
+        },
+        {
+          "name": "Armada",
+          "code": "AR"
+        },
+        {
+          "name": "Frontier",
+          "code": "FT"
+        },
+        {
+          "name": "Juke",
+          "code": "JK"
+        },
+        {
+          "name": "Leaf",
+          "code": "LF"
+        },
+        {
+          "name": "Maxima",
+          "code": "MX"
+        },
+        {
+          "name": "Murano",
+          "code": "MU"
+        },
+        {
+          "name": "Pathfinder",
+          "code": "PT"
+        },
+        {
+          "name": "Rogue",
+          "code": "RG"
+        },
+        {
+          "name": "Sentra",
+          "code": "SE"
+        },
+        {
+          "name": "Titan XD",
+          "code": "XD"
+        },
+        {
+          "name": "Titan",
+          "code": "TN"
+        },
+        {
+          "name": "Versa Note",
+          "code": "VN"
+        },
+        {
+          "name": "Versa Sedan",
+          "code": "VS"
+        }
+      ],
+      "offers": [
+        {
+          "apr": [
+            "apr",
+            "cashback"
+          ]
+        },
+        {
+          "lease": [
+            "lease",
+            "leasecash",
+            "leasesignndrive"
+          ]
+        },
+        {
+          "mathstack": [
+            "mathstack",
+            "cashback",
+            "negmathstack"
+          ]
+        },
+        {
+          "msrp": [
+            "msrp"
+          ]
+        }
+      ],
+      "version": "Sales Event"
+    },
+    {
+      "name": "Geofencing",
+      "url": "",
+      "links": [
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=34962958&dimensions=300x250&versions=86501864,86536256,86501865,86536259,86501866,86501867,86501874,86501872,86805117,86501869,86501873,86501868,86501871,86501870&type=GEOFENCING",
+          "value": "300x250"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=34963556&dimensions=728x90&versions=86501978,86536253,86501979,86536254,86501980,86501981,86501988,86501986,86501983,86501987,86501982,86590651,86810137,86501984&type=GEOFENCING",
+          "value": "728x90"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=34963430&dimensions=320x50&versions=86501877,86536263,86501878,86536264,86501879,86501880,86501887,86501885,86808667,86501882,86501886,86501881,86501884,86501883&type=GEOFENCING",
+          "value": "320x50"
+        }
+      ],
+      "vehicles": [],
+      "offers": [],
+      "parameters": [],
+      "version": "Non-Offer"
+    },
+    {
+      "name": "Intercept",
+      "url": "",
+      "links": [
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=34933457&dimensions=160x600&versions=86497017,86497018,86497019,86497020,86497022,86497023,86497025,86497026,86497028,86497029,86497030,86497031,86497033,86497034,86497036,86497037,86497038,86497040,86497041,86497042,86497044,86497045,86497046,86497048,86497049,86497050,86497051,86497052,86497053,86497055&type=INTERCEPT",
+          "value": "160x600"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=34953605&dimensions=300x250&versions=86619270,86619271,86619272,86619276,86619277,86619278,86619273,86619274,86619275,86619279,86619280,86619281,86619297,86619298,86619299,86622350,86619283,86619284,86619294,86619295,86619296,86619285,86619286,86619287,86619291,86619292,86619293,86619288,86619289,86619290&type=INTERCEPT",
+          "value": "300x250"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=35025736&dimensions=300x600&versions=86617332,86617331,86617333,86617337,86617338,86617339,86617334,86617335,86617336,86617340,86617341,86617342,86617358,86617359,86617360,86617343,86617344,86617345,86617355,86617356,86617357,86617346,86617347,86617348,86617352,86617353,86617354,86617349,86617350,86617351&type=INTERCEPT",
+          "value": "300x600"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=35032609&dimensions=728x90&versions=86622405,86622407,86622406,86622411,86622412,86622413,86622408,86622409,86622410,86622414,86622415,86622416,86622432,86622433,86622434,86622417,86622418,86622419,86622429,86622430,86622431,86622420,86622421,86622422,86622426,86622427,86622428,86622423,86622424,86622425&type=INTERCEPT",
+          "value": "728x90"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=35034840&dimensions=480x60&versions=86624904,86624905,86624903,86624909,86624910,86624911,86624906,86624907,86624908,86624912,86624913,86624914,86624915,86624916,86624917,86624927,86624928,86624929,86624918,86624919,86624920,86624924,86624925,86624926,86624921,86624922,86624923&type=INTERCEPT",
+          "value": "480x60"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=35034657&dimensions=320x50&versions=86624842,86624844,86624843,86624848,86624849,86624850,86624845,86624846,86624847,86624851,86624852,86624853,86624854,86624855,86624856,86624866,86624867,86624868,86624857,86624858,86624859,86624863,86624864,86624865,86624860,86624861,86624862&type=INTERCEPT",
+          "value": "320x50"
+        },
+        {
+          "href": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/template.html?adID=35033349&dimensions=300x50&versions=86624313,86624314,86624315,86624319,86624320,86624321,86624316,86624317,86624318,86624322,86624323,86624324,86624325,86624326,86624327,86624337,86624338,86624339,86624328,86624329,86624330,86624334,86624335,86624336,86624331,86624332,86624333&type=INTERCEPT",
+          "value": "300x50"
+        }
+      ],
+      "vehicles": [],
+      "offers": [],
+      "parameters": [],
+      "version": "Non-Offer"
+    },
+    {
+      "name": "Regular",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/NCAA/template_{size}.html?school_name={team}&creative_version={name}",
+      "links": [],
+      "vehicles": [],
+      "offers": [],
+      "parameters": [
+        {
+          "team": [
+            "National",
+            "Air Force",
+            "Arizona",
+            "Arizona State",
+            "Arkansas",
+            "Army",
+            "Auburn",
+            "BYU",
+            "Bama",
+            "Baylor",
+            "Berkeley",
+            "Boston College",
+            "Butler",
+            "Cincinnati",
+            "Clemson",
+            "Colorado",
+            "Colorado State",
+            "Columbia",
+            "Cornell",
+            "Duke",
+            "FSU",
+            "Florida",
+            "Fresno",
+            "Georgetown",
+            "Georgia",
+            "Georgia Tech",
+            "Grambling",
+            "Hampton",
+            "Harvard",
+            "Hawaii",
+            "Houston",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Iowa State",
+            "Kansas",
+            "Kansas State",
+            "Kentucky",
+            "LSU",
+            "Long Beach_State",
+            "Louisville",
+            "Maryland",
+            "Memphis",
+            "Miami",
+            "Michigan",
+            "Michigan State",
+            "Minnesota",
+            "Mississippi State",
+            "Missouri",
+            "NCAT",
+            "NC State",
+            "Nebraska",
+            "Nevada",
+            "North Carolina",
+            "Northern Illinois",
+            "Northern Iowa",
+            "Northwestern",
+            "Notre Dame",
+            "Ohio State",
+            "Oklahoma",
+            "Oklahoma State",
+            "Ole Miss",
+            "Oregon",
+            "Oregon State",
+            "Penn State",
+            "Pittsburgh",
+            "Princeton",
+            "Purdue",
+            "Rice",
+            "Rutgers",
+            "SMU",
+            "San Diego_State",
+            "San Jose_State",
+            "Seton Hall",
+            "South Carolina",
+            "Southern",
+            "Southern Cal_USC",
+            "Stanford",
+            "Syracuse",
+            "TCU",
+            "TX A_and_M",
+            "Temple",
+            "Tennessee",
+            "Tennessee State",
+            "Texas",
+            "Texas Tech",
+            "UCLA",
+            "UCONN",
+            "UNLV",
+            "Utah",
+            "Vandy",
+            "Virginia",
+            "Virginia Tech",
+            "Wake Forest",
+            "Washington",
+            "Washington State",
+            "West Virginia",
+            "Wichita State",
+            "Wisconsin",
+            "Wyoming",
+            "Xavier",
+            "Yale"
+          ]
+        },
+        {
+          "size": [
+            "160x600",
+            "300x250",
+            "728x90",
+            "300x157",
+            "970x66",
+            "645x90",
+            "320x50",
+            "878x110"
+          ]
+        }
+      ],
+      "version": "NCAA"
+    },
+    {
+      "name": "Sweepstakes",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/NCAA/template_{size}.html?school_name={team}&creative_version={name}",
+      "links": [],
+      "vehicles": [],
+      "offers": [],
+      "parameters": [
+        {
+          "team": [
+            "National",
+            "Air Force",
+            "Arizona",
+            "Arizona State",
+            "Arkansas",
+            "Army",
+            "Auburn",
+            "BYU",
+            "Bama",
+            "Baylor",
+            "Berkeley",
+            "Boston College",
+            "Butler",
+            "Cincinnati",
+            "Clemson",
+            "Colorado",
+            "Colorado State",
+            "Columbia",
+            "Cornell",
+            "Duke",
+            "FSU",
+            "Florida",
+            "Fresno",
+            "Georgetown",
+            "Georgia",
+            "Georgia Tech",
+            "Grambling",
+            "Hampton",
+            "Harvard",
+            "Hawaii",
+            "Houston",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Iowa State",
+            "Kansas",
+            "Kansas State",
+            "Kentucky",
+            "LSU",
+            "Long Beach_State",
+            "Louisville",
+            "Maryland",
+            "Memphis",
+            "Miami",
+            "Michigan",
+            "Michigan State",
+            "Minnesota",
+            "Mississippi State",
+            "Missouri",
+            "NCAT",
+            "NC State",
+            "Nebraska",
+            "Nevada",
+            "North Carolina",
+            "Northern Illinois",
+            "Northern Iowa",
+            "Northwestern",
+            "Notre Dame",
+            "Ohio State",
+            "Oklahoma",
+            "Oklahoma State",
+            "Ole Miss",
+            "Oregon",
+            "Oregon State",
+            "Penn State",
+            "Pittsburgh",
+            "Princeton",
+            "Purdue",
+            "Rice",
+            "Rutgers",
+            "SMU",
+            "San Diego_State",
+            "San Jose_State",
+            "Seton Hall",
+            "South Carolina",
+            "Southern",
+            "Southern Cal_USC",
+            "Stanford",
+            "Syracuse",
+            "TCU",
+            "TX A_and_M",
+            "Temple",
+            "Tennessee",
+            "Tennessee State",
+            "Texas",
+            "Texas Tech",
+            "UCLA",
+            "UCONN",
+            "UNLV",
+            "Utah",
+            "Vandy",
+            "Virginia",
+            "Virginia Tech",
+            "Wake Forest",
+            "Washington",
+            "Washington State",
+            "West Virginia",
+            "Wichita State",
+            "Wisconsin",
+            "Wyoming",
+            "Xavier",
+            "Yale"
+          ]
+        },
+        {
+          "size": [
+            "160x600",
+            "300x250",
+            "728x90",
+            "300x157",
+            "970x66",
+            "645x90",
+            "320x50",
+            "878x110"
+          ]
+        }
+      ],
+      "version": "NCAA"
+    },
+    {
+      "name": "Titan Giveaway",
+      "url": "http://services.serving-sys.com/HostingServices/Creative/Nissan/DEMO/NCAA/template_{size}.html?school_name={team}&creative_version={name}",
+      "links": [],
+      "vehicles": [],
+      "offers": [],
+      "parameters": [
+        {
+          "team": [
+            "Air Force",
+            "Arizona",
+            "Arizona State",
+            "Arkansas",
+            "Army",
+            "Auburn",
+            "BYU",
+            "Bama",
+            "Baylor",
+            "Berkeley",
+            "Boston College",
+            "Butler",
+            "Cincinnati",
+            "Clemson",
+            "Colorado",
+            "Colorado State",
+            "Columbia",
+            "Cornell",
+            "Duke",
+            "FSU",
+            "Florida",
+            "Fresno",
+            "Georgetown",
+            "Georgia",
+            "Georgia Tech",
+            "Grambling",
+            "Hampton",
+            "Harvard",
+            "Hawaii",
+            "Houston",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Iowa State",
+            "Kansas",
+            "Kansas State",
+            "Kentucky",
+            "LSU",
+            "Long Beach_State",
+            "Louisville",
+            "Maryland",
+            "Memphis",
+            "Miami",
+            "Michigan",
+            "Michigan State",
+            "Minnesota",
+            "Mississippi State",
+            "Missouri",
+            "NCAT",
+            "NC State",
+            "Nebraska",
+            "Nevada",
+            "North Carolina",
+            "Northern Illinois",
+            "Northern Iowa",
+            "Northwestern",
+            "Notre Dame",
+            "Ohio State",
+            "Oklahoma",
+            "Oklahoma State",
+            "Ole Miss",
+            "Oregon",
+            "Oregon State",
+            "Penn State",
+            "Pittsburgh",
+            "Princeton",
+            "Purdue",
+            "Rice",
+            "Rutgers",
+            "SMU",
+            "San Diego_State",
+            "San Jose_State",
+            "Seton Hall",
+            "South Carolina",
+            "Southern",
+            "Southern Cal_USC",
+            "Stanford",
+            "Syracuse",
+            "TCU",
+            "TX A_and_M",
+            "Temple",
+            "Tennessee",
+            "Tennessee State",
+            "Texas",
+            "Texas Tech",
+            "UCLA",
+            "UCONN",
+            "UNLV",
+            "Utah",
+            "Vandy",
+            "Virginia",
+            "Virginia Tech",
+            "Wake Forest",
+            "Washington",
+            "Washington State",
+            "West Virginia",
+            "Wichita State",
+            "Wisconsin",
+            "Wyoming",
+            "Xavier",
+            "Yale"
+          ]
+        },
+        {
+          "size": [
+            "160x600",
+            "300x250",
+            "728x90",
+            "970x66",
+            "320x50"
+          ]
+        }
+      ],
+      "version": "NCAA"
+    }
+  ]
+}
